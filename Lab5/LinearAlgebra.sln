@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E0D597CA-FC7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearAlgebra", "lib\LinearAlgebra\LinearAlgebra.csproj", "{DF74DB26-B00B-4F65-9C15-2ABE078424E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorDemo", "VectorDemo\VectorDemo.csproj", "{7121E657-0CF8-4FBD-95AD-3DB7CE1AF13B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{DF74DB26-B00B-4F65-9C15-2ABE078424E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF74DB26-B00B-4F65-9C15-2ABE078424E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF74DB26-B00B-4F65-9C15-2ABE078424E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7121E657-0CF8-4FBD-95AD-3DB7CE1AF13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7121E657-0CF8-4FBD-95AD-3DB7CE1AF13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7121E657-0CF8-4FBD-95AD-3DB7CE1AF13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7121E657-0CF8-4FBD-95AD-3DB7CE1AF13B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF74DB26-B00B-4F65-9C15-2ABE078424E9} = {E0D597CA-FC7B-4FA9-A68B-3752E030D800}

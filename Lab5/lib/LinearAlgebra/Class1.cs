@@ -3,29 +3,14 @@ namespace LinearAlgebra;
 
 public interface IMathVector : IEnumerable
 {
-  /// <summary>
-  /// Получить размерность вектора (количество координат).
-  /// </summary>
   int Dimensions { get; }
-  /// <summary>
-  /// Индексатор для доступа к элементам вектора. Нумерация снуля.
-  /// </summary>
   double this[int i] { get; set; }
-  /// <summary>Рассчитать длину (модуль) вектора.</summary>
   double Length { get; }
-  /// <summary>Покомпонентное сложение с числом.</summary>
   IMathVector SumNumber(double number);
-  /// <summary>Покомпонентное умножение на число.</summary>
   IMathVector MultiplyNumber(double number);
-  /// <summary>Сложение с другим вектором.</summary>
   IMathVector Sum(IMathVector vector);
-  /// <summary>Покомпонентное умножение с другимвектором.</summary>
-  IMathVector Multiply(IMathVector vector);
-  /// <summary>Скалярное умножение на другой вектор.</summary>
+   IMathVector Multiply(IMathVector vector);
   double ScalarMultiply(IMathVector vector);
-  /// <summary>
-  /// Вычислить Евклидово расстояние до другого вектора.
-  /// </summary>
   double CalcDistance(IMathVector vector);
 }
 
@@ -37,7 +22,7 @@ public class MathVector : IMathVector
   public MathVector(double[] coordinates)
   {
     if (coordinates == null || coordinates.Length == 0)
-        throw new ArgumentException("Координаты не муогут быть путсыми");
+        throw new ArgumentException("Координаты не могут быть пустыми");
 
     _coordinates = new double[coordinates.Length];
     Array.Copy(coordinates, _coordinates, coordinates.Length);
@@ -50,12 +35,13 @@ public class MathVector : IMathVector
     get
     {
         if (i < 0 || i >= Dimensions)
-            throw new IndexOutOfRangeException("Index is out of range.");
+            throw new IndexOutOfRangeException("Индекс вне диапазона");
+
         return _coordinates[i];
     }
     set
     {
-        throw new InvalidOperationException("This vector is immutable.");
+        throw new InvalidOperationException("Вектор иммутабелен");
     }
   }
 
@@ -92,28 +78,120 @@ public class MathVector : IMathVector
     return new MathVector(result);
   }
 
-  public double CalcDistance(IMathVector vector)
+  public IMathVector Sum(IMathVector vector)
   {
-      throw new NotImplementedException();
-  }
+    if (vector == null || vector.Dimensions != Dimensions)
+      throw new ArgumentException("Количество измерений у векторов должны совпадать");
 
-  public IEnumerator GetEnumerator()
-  {
-      throw new NotImplementedException();
+    var result = new double[Dimensions];
+    for (int i = 0; i < Dimensions; i++)
+    {
+        result[i] = _coordinates[i] + vector[i];
+    }
+    return new MathVector(result);
   }
 
   public IMathVector Multiply(IMathVector vector)
   {
-      throw new NotImplementedException();
+    if (vector == null || vector.Dimensions != Dimensions)
+      throw new ArgumentException("Количество измерений у векторов должны совпадать");
+
+    var result = new double[Dimensions];
+    for (int i = 0; i < Dimensions; i++)
+    {
+        result[i] = _coordinates[i] * vector[i];
+    }
+    return new MathVector(result);
   }
 
   public double ScalarMultiply(IMathVector vector)
   {
-      throw new NotImplementedException();
+    if (vector == null || vector.Dimensions != Dimensions)
+      throw new ArgumentException("Количество измерений у векторов должны совпадать");
+
+    double result = 0;
+    for (int i = 0; i < Dimensions; i++)
+    {
+        result += _coordinates[i] * vector[i];
+    }
+    return result;
   }
 
-  public IMathVector Sum(IMathVector vector)
+  public double CalcDistance(IMathVector vector)
   {
-      throw new NotImplementedException();
+    if (vector == null || vector.Dimensions != Dimensions)
+        throw new ArgumentException("Количество измерений у векторов должны совпадать");
+
+    double sum = 0;
+    for (int i = 0; i < Dimensions; i++)
+    {
+        double diff = _coordinates[i] - vector[i];
+        sum += diff * diff;
+    }
+    return Math.Sqrt(sum);
+  }
+ 
+  public static IMathVector operator +(MathVector vector_1, MathVector vector_2)
+  {
+    return vector_1.Sum(vector_2);
+  }
+
+  public static IMathVector operator +(MathVector vector_1, double num)
+  {
+    return vector_1.SumNumber(num);
+  }
+
+  public static IMathVector operator -(MathVector vector_1, MathVector vector_2)
+  {
+    return vector_1.Sum(vector_2.MultiplyNumber(-1));
+  }
+
+  public static IMathVector operator -(MathVector vector_1, double num)
+  {
+    return vector_1.SumNumber(-num);
+  }
+
+  public static IMathVector operator *(MathVector vector_1, MathVector vector_2)
+  {
+    return vector_1.Multiply(vector_2);
+  }
+
+  public static IMathVector operator *(MathVector vector_1, double num)
+  {
+    return vector_1.MultiplyNumber(num);
+  }
+
+  public static IMathVector operator /(MathVector vector_1, MathVector vector_2)
+  {
+    if (vector_1.Dimensions != vector_2.Dimensions)
+      throw new ArgumentException("Количество измерений у векторов должны совпадать");
+
+    var result = new double[vector_1.Dimensions];
+    for (int i = 0; i < vector_1.Dimensions; i++)
+    {
+      if (vector_2[i] == 0)
+        throw new DivideByZeroException("Деление на 0 невозможно!");
+      
+      result[i] = vector_1[i] / vector_2[i];
+    }
+    return new MathVector(result);
+  }
+
+  public static IMathVector operator /(MathVector vector_1, double num)
+  {
+    if (num == 0)
+    {
+      throw new DivideByZeroException("Деление на 0 невозможно!");
+    }
+    return vector_1.MultiplyNumber(1/num);
+  }
+
+  public static double operator %(MathVector vector_1, MathVector vector_2)
+  {
+    return vector_1.ScalarMultiply(vector_2);
+  }
+  public IEnumerator GetEnumerator()
+  {
+      return _coordinates.GetEnumerator();
   }
 }
