@@ -1,0 +1,6 @@
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.dll
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.pdb
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.csproj.AssemblyReference.cache
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.csproj.CoreCompileInputs.cache
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.dll
+D:\PythonLabs\Lab5_new\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.pdb
