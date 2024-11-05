@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikit\\OneDrive\\Documents\\PythonProjects\\Lab6\\LinearAlgebra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF04425-51BE-42D5-9629-C5A40C487D84}|VectorDemo\\VectorDemo.csproj|c:\\users\\nikit\\onedrive\\documents\\pythonprojects\\lab6\\linearalgebra\\vectordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF04425-51BE-42D5-9629-C5A40C487D84}|VectorDemo\\VectorDemo.csproj|solutionrelative:vectordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCD0F61-4F90-4C45-81A7-50BA44157C38}|LinearAlgebra\\LinearAlgebra.csproj|c:\\users\\nikit\\onedrive\\documents\\pythonprojects\\lab6\\linearalgebra\\linearalgebra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCD0F61-4F90-4C45-81A7-50BA44157C38}|LinearAlgebra\\LinearAlgebra.csproj|solutionrelative:linearalgebra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikit\\OneDrive\\Documents\\PythonProjects\\Lab6\\LinearAlgebra\\VectorDemo\\Program.cs",
+              "RelativeDocumentMoniker": "VectorDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\nikit\\OneDrive\\Documents\\PythonProjects\\Lab6\\LinearAlgebra\\VectorDemo\\Program.cs",
+              "RelativeToolTip": "VectorDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T13:22:45.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nikit\\OneDrive\\Documents\\PythonProjects\\Lab6\\LinearAlgebra\\LinearAlgebra\\Class1.cs",
+              "RelativeDocumentMoniker": "LinearAlgebra\\Class1.cs",
+              "ToolTip": "C:\\Users\\nikit\\OneDrive\\Documents\\PythonProjects\\Lab6\\LinearAlgebra\\LinearAlgebra\\Class1.cs",
+              "RelativeToolTip": "LinearAlgebra\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T13:20:49.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
