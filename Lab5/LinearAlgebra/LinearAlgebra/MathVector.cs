@@ -153,7 +153,7 @@ namespace LinearAlgebra
             return vector_1.SumNumber(-num);
         }
 
-        public static IMathVector operator *(MathVector vector_1, MathVector vector_2)
+        public static IMathVector operator *(IMathVector vector_1, MathVector vector_2)
         {
             return vector_1.Multiply(vector_2);
         }
