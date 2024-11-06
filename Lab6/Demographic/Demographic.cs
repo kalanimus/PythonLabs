@@ -1,6 +1,6 @@
 ﻿namespace Demographic;
 
-public Interface IEngine
+public interface IEngine
 {
 
 }

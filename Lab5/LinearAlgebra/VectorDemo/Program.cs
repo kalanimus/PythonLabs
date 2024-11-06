@@ -11,8 +11,8 @@ namespace VectorDemo
     {
         static void Main(string[] args)
         {
-            MathVector vector1 = new MathVector(new double[] { 3, 4 });
-            MathVector vector2 = new MathVector(new double[] { 6, 8 });
+            IMathVector vector1 = new MathVector(new double[] { 3, 4 });
+            IMathVector vector2 = new MathVector(new double[] { 6, 8 });
 
             Console.WriteLine($"Колличество элементов вектора 1:\n{vector1.Dimensions}");
             Console.WriteLine($"Колличество элементов вектора 2:\n{vector2.Dimensions}");
@@ -44,7 +44,7 @@ namespace VectorDemo
             Console.WriteLine($"Скалярное произведение вектора 1 и вектора 2:\n{scalat_mult}");
 
             double distance = vector1.CalcDistance(vector2);
-            Console.WriteLine($"Евклидово расстояние между вектором 1 и вектором 2:\n{scalat_mult}");
+            Console.WriteLine($"Евклидово расстояние между вектором 1 и вектором 2:\n{distance}");
 
             Console.WriteLine("\nДалее тестирование перегрузки операторов\n");
 

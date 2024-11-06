@@ -21,3 +21,15 @@ C:\Users\nikit\Documents\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\n
 C:\Users\nikit\Documents\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\refint\LinearAlgebra.dll
 C:\Users\nikit\Documents\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.pdb
 C:\Users\nikit\Documents\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\ref\LinearAlgebra.dll
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\bin\Debug\net8.0\LinearAlgebra.deps.json
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\bin\Debug\net8.0\LinearAlgebra.dll
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\bin\Debug\net8.0\LinearAlgebra.pdb
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.GeneratedMSBuildEditorConfig.editorconfig
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.AssemblyInfoInputs.cache
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.AssemblyInfo.cs
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.csproj.CoreCompileInputs.cache
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.sourcelink.json
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.dll
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\refint\LinearAlgebra.dll
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\LinearAlgebra.pdb
+D:\PythonLabs\Lab5\LinearAlgebra\LinearAlgebra\obj\Debug\net8.0\ref\LinearAlgebra.dll

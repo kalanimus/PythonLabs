@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
+      "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
       "projectName": "Demographic.FileOperations",
-      "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
+      "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\obj\\",
+      "outputPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

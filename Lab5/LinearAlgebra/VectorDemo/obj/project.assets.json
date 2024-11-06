@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\VectorDemo.csproj",
+      "projectUniqueName": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\VectorDemo.csproj",
       "projectName": "VectorDemo",
-      "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\VectorDemo.csproj",
+      "projectPath": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\VectorDemo.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\obj\\",
+      "outputPath": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\VectorDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {
-              "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj"
+            "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {
+              "projectPath": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj"
             }
           }
         }

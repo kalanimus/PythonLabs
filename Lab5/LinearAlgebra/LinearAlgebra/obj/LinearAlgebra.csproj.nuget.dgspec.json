@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {}
+    "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {
+    "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj",
+        "projectUniqueName": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj",
         "projectName": "LinearAlgebra",
-        "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj",
+        "projectPath": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\LinearAlgebra.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\obj\\",
+        "outputPath": "D:\\PythonLabs\\Lab5\\LinearAlgebra\\LinearAlgebra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

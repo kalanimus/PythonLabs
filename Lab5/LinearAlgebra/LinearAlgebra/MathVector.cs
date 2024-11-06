@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Xml.XPath;
 
 namespace LinearAlgebra
 {
@@ -14,6 +15,19 @@ namespace LinearAlgebra
         IMathVector Multiply(IMathVector vector);
         double ScalarMultiply(IMathVector vector);
         double CalcDistance(IMathVector vector);
+
+        IMathVector Divide(IMathVector vector);
+        IMathVector DivideNumber(double num);
+
+        public static IMathVector operator +(IMathVector vector_1, IMathVector vector_2) => vector_1.Sum(vector_2);
+        public static IMathVector operator +(IMathVector vector_1, double num) => vector_1.SumNumber(num);
+        public static IMathVector operator -(IMathVector vector_1, IMathVector vector_2) => vector_1.Sum(vector_2.MultiplyNumber(-1));
+        public static IMathVector operator -(IMathVector vector_1, double num) => vector_1.SumNumber(-num);
+        public static IMathVector operator *(IMathVector vector_1, IMathVector vector_2) => vector_1.Multiply(vector_2);
+        public static IMathVector operator *(IMathVector vector_1, double num) => vector_1.MultiplyNumber(num);
+        public static IMathVector operator /(IMathVector vector_1, IMathVector vector_2) => vector_1.Divide(vector_2);
+        public static IMathVector operator /(IMathVector vector_1, double num) => vector_1.DivideNumber(num);
+        public static double operator %(IMathVector vector_1, IMathVector vector_2) => vector_1.ScalarMultiply(vector_2);
     }
 
 
@@ -133,68 +147,49 @@ namespace LinearAlgebra
             return Math.Sqrt(sum);
         }
 
-        public static IMathVector operator +(MathVector vector_1, MathVector vector_2)
+        public IMathVector Divide(IMathVector vector)
         {
-            return vector_1.Sum(vector_2);
-        }
-
-        public static IMathVector operator +(MathVector vector_1, double num)
-        {
-            return vector_1.SumNumber(num);
-        }
-
-        public static IMathVector operator -(MathVector vector_1, MathVector vector_2)
-        {
-            return vector_1.Sum(vector_2.MultiplyNumber(-1));
-        }
-
-        public static IMathVector operator -(MathVector vector_1, double num)
-        {
-            return vector_1.SumNumber(-num);
-        }
-
-        public static IMathVector operator *(IMathVector vector_1, MathVector vector_2)
-        {
-            return vector_1.Multiply(vector_2);
-        }
-
-        public static IMathVector operator *(MathVector vector_1, double num)
-        {
-            return vector_1.MultiplyNumber(num);
-        }
-
-        public static IMathVector operator /(MathVector vector_1, MathVector vector_2)
-        {
-            if (vector_1.Dimensions != vector_2.Dimensions)
+            if (vector == null || vector.Dimensions != Dimensions)
                 throw new ArgumentException("Количество измерений у векторов должны совпадать");
-
-            double[] result = new double[vector_1.Dimensions];
-            for (int i = 0; i < vector_1.Dimensions; i++)
-            {
-                if (vector_2[i] == 0)
-                    throw new DivideByZeroException("Деление на 0 невозможно!");
-
-                result[i] = vector_1[i] / vector_2[i];
+            for (int i = 0; i < Dimensions; i++){
+                if (vector[i] == 0)
+                    throw new ArgumentException("Деление на 0 невозможно!");
+            }
+            double[] result = new double[Dimensions];
+            for (int i = 0; i < Dimensions; i++) {
+                result[i] = _coordinates[i] / vector[i];
+            }
+            return new MathVector(result);
+        }
+        public IMathVector DivideNumber(double num)
+        {
+            if (num == 0)
+                throw new ArgumentException("Деление на 0 невозможно!");
+            double[] result = new double[Dimensions];
+            for (int i = 0; i < Dimensions; i++) {
+                result[i] = _coordinates[i] / num;
             }
             return new MathVector(result);
         }
 
-        public static IMathVector operator /(MathVector vector_1, double num)
-        {
-            if (num == 0)
-            {
-                throw new DivideByZeroException("Деление на 0 невозможно!");
-            }
-            return vector_1.MultiplyNumber(1 / num);
-        }
+        public static IMathVector operator +(MathVector vector_1, IMathVector vector_2) => vector_1.Sum(vector_2);
+        
+        public static IMathVector operator +(MathVector vector_1, double num) => vector_1.SumNumber(num);
 
-        public static double operator %(MathVector vector_1, MathVector vector_2)
-        {
-            return vector_1.ScalarMultiply(vector_2);
-        }
-        public IEnumerator GetEnumerator()
-        {
-            return _coordinates.GetEnumerator();
-        }
+        public static IMathVector operator -(MathVector vector_1, IMathVector vector_2) => vector_1.Sum(vector_2.MultiplyNumber(-1));
+
+        public static IMathVector operator -(MathVector vector_1, double num) => vector_1.SumNumber(-num);
+
+        public static IMathVector operator *(MathVector vector_1, IMathVector vector_2) => vector_1.Multiply(vector_2);
+        
+        public static IMathVector operator *(MathVector vector_1, double num) => vector_1.MultiplyNumber(num);
+
+        public static IMathVector operator /(MathVector vector_1, IMathVector vector_2) => vector_1.Divide(vector_2);
+    
+        public static IMathVector operator /(MathVector vector_1, double num) => vector_1.DivideNumber(num);
+        
+        public static double operator %(MathVector vector_1, MathVector vector_2) => vector_1.ScalarMultiply(vector_2);
+        public IEnumerator GetEnumerator() => _coordinates.GetEnumerator();
+        
     }
 }

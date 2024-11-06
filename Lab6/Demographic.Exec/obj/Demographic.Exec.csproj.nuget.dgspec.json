@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj": {}
+    "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj": {
+    "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
+        "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
         "projectName": "Demographic.Exec",
-        "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
+        "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\obj\\",
+        "outputPath": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
