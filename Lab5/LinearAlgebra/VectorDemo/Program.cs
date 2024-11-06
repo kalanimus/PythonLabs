@@ -9,11 +9,10 @@ using System.Threading.Tasks;
 try
 {
     IMathVector vector1 = new MathVector(new double[] { 1, 2, 3 });
-    IMathVector vector2 = new MathVector(new double[] { 3, 2, 1});
+    IMathVector vector2 = new MathVector(new double[] { 3, 2, 1 });
     double num = 1;
-    vector1 = vector1 + num;
-    vector1[1] = 2;
-    PrintVector(vector1);
+    vector2 = vector2 + num;
+    PrintVector(vector2);
 }
 catch (Exception ex)
 {
