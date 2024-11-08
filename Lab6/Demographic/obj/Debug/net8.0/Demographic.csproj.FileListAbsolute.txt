@@ -1,0 +1,12 @@
+D:\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.deps.json
+D:\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.dll
+D:\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.pdb
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.GeneratedMSBuildEditorConfig.editorconfig
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.AssemblyInfoInputs.cache
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.AssemblyInfo.cs
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.csproj.CoreCompileInputs.cache
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.sourcelink.json
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.dll
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\refint\Demographic.dll
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.pdb
+D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\ref\Demographic.dll

@@ -1,0 +1,13 @@
+D:\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.deps.json
+D:\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.dll
+D:\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.pdb
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.csproj.AssemblyReference.cache
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.AssemblyInfoInputs.cache
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.AssemblyInfo.cs
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.csproj.CoreCompileInputs.cache
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.sourcelink.json
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.dll
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\refint\Demographic.FileOperations.dll
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.pdb
+D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\ref\Demographic.FileOperations.dll
