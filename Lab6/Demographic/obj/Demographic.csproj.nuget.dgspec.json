@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {}
+    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {}
   },
   "projects": {
-    "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
+    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
+        "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
         "projectName": "Demographic",
-        "projectPath": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
+        "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "D:\\PythonLabs\\Lab6\\Demographic\\obj\\",
+        "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

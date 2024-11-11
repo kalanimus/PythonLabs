@@ -10,3 +10,15 @@ D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.dll
 D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\refint\Demographic.dll
 D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.pdb
 D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\ref\Demographic.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.deps.json
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.pdb
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.AssemblyInfoInputs.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.AssemblyInfo.cs
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.sourcelink.json
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\refint\Demographic.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.pdb
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\ref\Demographic.dll

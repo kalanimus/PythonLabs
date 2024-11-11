@@ -11,3 +11,16 @@ D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileO
 D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\refint\Demographic.FileOperations.dll
 D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.pdb
 D:\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\ref\Demographic.FileOperations.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.deps.json
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\bin\Debug\net8.0\Demographic.FileOperations.pdb
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.csproj.AssemblyReference.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.AssemblyInfoInputs.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.AssemblyInfo.cs
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.sourcelink.json
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\refint\Demographic.FileOperations.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\Demographic.FileOperations.pdb
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic.FileOperations\obj\Debug\net8.0\ref\Demographic.FileOperations.dll

@@ -84,14 +84,16 @@ public class Engine : IEngine
     }
 
     int years = 0;
-
+    Console.WriteLine($"колво людей: {population_men.Count + population_women.Count}");
+    Console.WriteLine($"Год: {_current_year} Муж: {population_men.Count} Жен: {population_women.Count}");
     for (; _current_year <= _last_year; _current_year++)
     {
       YearTick?.Invoke(this);
       UpdatePopulation();
       years++;
       Console.WriteLine($"колво людей: {population_men.Count + population_women.Count}");
-      Console.WriteLine($"Год: {_current_year} Муж: {_men_count} Жен: {_women_count}");
+      Console.WriteLine($"Год: {_current_year} Муж: {population_men.Count} Жен: {population_women.Count}");
+      
       
     }
     
@@ -111,6 +113,10 @@ public class Engine : IEngine
       if (!person.is_alive)
       {
         dead.Add(person);
+      }
+      if (person.is_alone)
+      {
+        person.break_relationship();
       }
     }
 
@@ -160,6 +166,7 @@ public class Person
   public bool is_alive;
   public bool is_in_army = false;
   public bool was_in_army = false;
+  public bool is_alone = true;
   private double _birth_chance = 0.151;
   private double _birth_chance_girl = 0.55;
 
@@ -171,6 +178,10 @@ public class Person
 
   public event Action<Person>? ChildBirth;
 
+  public void break_relationship ()
+  {
+    is_alone = true;
+  }
   public void OnYearTick(Engine engine)
   {
     if (is_alive == false) return;
@@ -222,7 +233,8 @@ public class Person
       {
         int age = currentYear - person._birth_year;
         bool isAlive = person.is_alive;
-        bool result = age >= 18 && age <= 45 && isAlive && !is_in_army && ProbabilityCalculator.IsEventHappened(0.05);
+        bool result = age >= 18 && age <= 45 && isAlive && !is_in_army && is_alone && ProbabilityCalculator.IsEventHappened(0.05);
+        person.is_alone = false;
         return result;
     });
       if (hasPartner && ProbabilityCalculator.IsEventHappened(_birth_chance))
@@ -230,7 +242,7 @@ public class Person
       Gender childGender = ProbabilityCalculator.IsEventHappened(_birth_chance_girl) ? Gender.Female : Gender.Male;
       Person child = new Person (currentYear, childGender);
       ChildBirth?.Invoke(child);
-      if (ProbabilityCalculator.IsEventHappened(0.0342)) // смерть при родах
+      if (ProbabilityCalculator.IsEventHappened(0.0342)) // смерть при родах 0.0342
       {
         engine._women_count--;
         is_alive = false;
@@ -240,7 +252,7 @@ public class Person
     }
     }
   
-  if (gender == Gender.Female &&
+  if (gender == Gender.Female && //смерть по тупости
      ((age >= 15 && age <= 30) ||
      (age >= 70 && age <= 100)) && 
      ProbabilityCalculator.IsEventHappened(0.015))
