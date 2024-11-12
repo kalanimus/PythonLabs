@@ -24,6 +24,9 @@
         }
       },
       "Demographic/1.0.0": {
+        "dependencies": {
+          "Demographic.FileOperations": "1.0.0"
+        },
         "runtime": {
           "Demographic.dll": {
             "assemblyVersion": "1.0.0",

@@ -50,11 +50,43 @@ public static class FileOperations
     return(maleResult, femaleResult);
   }
 
-  public static void PrintDictionary(Dictionary<int, double> dictionary)
-{
-    foreach (var entry in dictionary)
+  public static void CreateYearByYearFile()
+  {
+    string path = "D:/PythonLabs/Lab6/Files/Year_by_year_results.csv";
+    if (File.Exists(path))
     {
-        Console.WriteLine($"Key: {entry.Key}, Value: {entry.Value}");
+      File.Delete(path);
     }
-}
+    using (StreamWriter writer = new StreamWriter(path, true)) // true для добавления
+        {
+            writer.WriteLine("year,men_count,women_count");
+        }
+  }
+
+  public static void CreateModelResultFile(List<int> men_count_by_age, List<int> women_count_by_age)
+  {
+    string path = "D:/PythonLabs/Lab6/Files/Model_results.csv";
+    if (File.Exists(path))
+    {
+      File.Delete(path);
+    }
+    List<string> age_list = new List<string> {"0-18", "19-45", "45-65", "65-100" };
+    using (StreamWriter writer = new StreamWriter(path, true)) // true для добавления
+        {
+            writer.WriteLine("age,men_count,women_count");
+            for (int i = 0; i < age_list.Count; i++)
+            {
+              writer.WriteLine($"{age_list[i]},{men_count_by_age[i]},{women_count_by_age[i]}");
+            }
+        }
+  }
+
+  public static void WriteToFile(int year, int men_count, int women_count)
+  {
+    string path = "D:/PythonLabs/Lab6/Files/Year_by_year_results.csv";
+    using (StreamWriter writer = new StreamWriter(path, true)) // true для добавления
+        {
+            writer.WriteLine($"{year},{men_count},{women_count}");
+        }
+  }
 }

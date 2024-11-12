@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/YomHp38aSM=",
+  "dgSpecHash": "sjM9dkRITME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
