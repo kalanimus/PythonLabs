@@ -26,3 +26,7 @@ D:\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.FileOperations.dll
 D:\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.FileOperations.pdb
 D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.csproj.AssemblyReference.cache
 D:\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demograp.AD3FAE09.Up2Date
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.FileOperations.dll
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\bin\Debug\net8.0\Demographic.FileOperations.pdb
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demographic.csproj.AssemblyReference.cache
+C:\Users\nikit\Documents\PythonLabs\Lab6\Demographic\obj\Debug\net8.0\Demograp.AD3FAE09.Up2Date

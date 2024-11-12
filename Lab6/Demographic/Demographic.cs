@@ -35,7 +35,12 @@ public class Engine : IEngine
   public Dictionary<int,double> _death_rules_male;
   public Dictionary<int,double> _death_rules_female;
 
-  public Engine(int Start_year, int End_year, int Population_size, Dictionary<int,double> Population_rules, Dictionary<int,double> Death_rules_male, Dictionary<int,double> Death_rules_female)
+  public bool _men_selebration = false;
+  public bool _army = false;
+  public bool _death_while_birth = false;
+  public bool _dumb_ways_to_die = false;
+
+  public Engine(int Start_year, int End_year, int Population_size, bool men_selebration, bool army, bool death_while_birth, bool dumb_ways_to_die, Dictionary<int,double> Population_rules, Dictionary<int,double> Death_rules_male, Dictionary<int,double> Death_rules_female)
   {
     _current_year = Start_year;
     _last_year = End_year;
@@ -44,6 +49,10 @@ public class Engine : IEngine
     _death_rules_female = Death_rules_female;
     decased = new List<Person>();
     (population_men, population_women) = GeneratePopulation(_population_rules, Population_size / 1000, _current_year);
+    _men_selebration = men_selebration;
+    _army = army;
+    _death_while_birth = death_while_birth;
+    _dumb_ways_to_die = dumb_ways_to_die;
   }
 
   private (List<Person> men, List<Person> women) GeneratePopulation(Dictionary<int,double> rules, double population_size, int start_year){
@@ -190,7 +199,7 @@ public class Person
     int currentYear = engine._current_year;
     int age = engine._current_year - this._birth_year;
 
-    if (this.gender == Gender.Male && age == 18) // 18ти летний прикол
+    if (this.gender == Gender.Male && age == 18 && engine._men_selebration) // 18ти летний прикол
     {
       if (ProbabilityCalculator.IsEventHappened(0.99))
       {
@@ -200,7 +209,7 @@ public class Person
       }
     }
 
-    if (gender == Gender.Male && age >= 18 && age <= 30) // армия
+    if (gender == Gender.Male && age >= 18 && age <= 30 && engine._army) // армия
     {
       if (is_in_army) // дембель
       {
@@ -239,7 +248,7 @@ public class Person
       Gender childGender = ProbabilityCalculator.IsEventHappened(_birth_chance_girl) ? Gender.Female : Gender.Male;
       Person child = new Person (currentYear, childGender);
       ChildBirth?.Invoke(child);
-      if (ProbabilityCalculator.IsEventHappened(0.0342)) // смерть при родах 0.0342
+      if (engine._death_while_birth && ProbabilityCalculator.IsEventHappened(0.0342)) // смерть при родах 0.0342
       {
         is_alive = false;
         _rip_year = currentYear;
@@ -248,7 +257,7 @@ public class Person
     }
     }
   
-  if (gender == Gender.Female && //смерть по тупости
+  if (engine._dumb_ways_to_die && gender == Gender.Female && //смерть по тупости
      ((age >= 15 && age <= 30) ||
      (age >= 70 && age <= 100)) && 
      ProbabilityCalculator.IsEventHappened(0.015))

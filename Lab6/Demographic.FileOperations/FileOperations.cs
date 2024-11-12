@@ -52,20 +52,20 @@ public static class FileOperations
 
   public static void CreateYearByYearFile()
   {
-    string path = "D:/PythonLabs/Lab6/Files/Year_by_year_results.csv";
+    string path = "Files/Year_by_year_results.csv";
     if (File.Exists(path))
     {
       File.Delete(path);
     }
     using (StreamWriter writer = new StreamWriter(path, true)) // true для добавления
         {
-            writer.WriteLine("year,men_count,women_count");
+            writer.WriteLine("year,men_count,women_count,total");
         }
   }
 
   public static void CreateModelResultFile(List<int> men_count_by_age, List<int> women_count_by_age)
   {
-    string path = "D:/PythonLabs/Lab6/Files/Model_results.csv";
+    string path = "Files/Model_results.csv";
     if (File.Exists(path))
     {
       File.Delete(path);
@@ -83,10 +83,10 @@ public static class FileOperations
 
   public static void WriteToFile(int year, int men_count, int women_count)
   {
-    string path = "D:/PythonLabs/Lab6/Files/Year_by_year_results.csv";
+    string path = "Files/Year_by_year_results.csv";
     using (StreamWriter writer = new StreamWriter(path, true)) // true для добавления
         {
-            writer.WriteLine($"{year},{men_count},{women_count}");
+            writer.WriteLine($"{year},{men_count},{women_count},{women_count + men_count}");
         }
   }
 }

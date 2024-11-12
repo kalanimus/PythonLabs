@@ -95,11 +95,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
+      "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
       "projectName": "Demographic.Exec",
-      "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
+      "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\obj\\",
+      "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,11 +116,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
-              "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj"
+            "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
+              "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj"
             },
-            "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
-              "projectPath": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj"
+            "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
+              "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj"
             }
           }
         }
@@ -158,5 +158,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Этот хост неизвестен. (api.nuget.org:443)"
+    }
+  ]
 }

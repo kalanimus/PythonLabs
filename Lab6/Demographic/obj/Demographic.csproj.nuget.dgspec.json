@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {}
+    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {}
   },
   "projects": {
-    "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
+    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
+        "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
         "projectName": "Demographic.FileOperations",
-        "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
+        "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\obj\\",
+        "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
+    "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
+        "projectUniqueName": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
         "projectName": "Demographic",
-        "projectPath": "D:\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
+        "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\Demographic.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "D:\\PythonLabs\\Lab6\\Demographic\\obj\\",
+        "outputPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
-                "projectPath": "D:\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj"
+              "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj": {
+                "projectPath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.FileOperations\\Demographic.FileOperations.csproj"
               }
             }
           }
