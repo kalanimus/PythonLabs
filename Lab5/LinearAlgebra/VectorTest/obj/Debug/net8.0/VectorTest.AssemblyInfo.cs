@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VectorTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7baaea85e4c7d834625ef5274d7fbaebd3924ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+915d4c298699a3789fe65a8ab23dcbe42d7801d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("VectorTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VectorTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

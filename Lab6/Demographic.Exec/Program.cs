@@ -13,6 +13,7 @@ class Program
     var (men_rules, women_rules) = FileOperations.ReadRules(args[1]);
     var json_file = FileOperations.ReadConfigFile(args[2]);
     // var json_file = FileOperations.ReadConfigFile("../../../../Files/config.json");
+    
     Config config = JsonSerializer.Deserialize<Config>(json_file);
     // Console.WriteLine(config.engine_config.people_per_Person);
     if (config != null)
