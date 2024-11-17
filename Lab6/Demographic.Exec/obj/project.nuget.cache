@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "938Inr5RNkU=",
+  "dgSpecHash": "01rzyi2liOo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikit\\Documents\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
+  "projectFilePath": "D:\\PythonLabs\\Lab6\\Demographic.Exec\\Demographic.Exec.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Этот хост неизвестен. (api.nuget.org:443)"
-    }
-  ]
+  "logs": []
 }

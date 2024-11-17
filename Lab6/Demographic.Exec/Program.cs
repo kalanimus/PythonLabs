@@ -1,18 +1,31 @@
-﻿using System;
+﻿using System.Text.Json;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Demographic;
 using Demographic.FileOperations;
 
 class Program
 {
   static void Main(string[] args)
-  {
+{
     var age_rules = FileOperations.ReadAge(args[0]);
     var (men_rules, women_rules) = FileOperations.ReadRules(args[1]);
-    IEngine model = new Demographic.Engine(int.Parse(args[2]), int.Parse(args[3]), int.Parse(args[4]), bool.Parse(args[5]), bool.Parse(args[6]), bool.Parse(args[7]), bool.Parse(args[8]), age_rules, men_rules, women_rules);
-    // Demographic.Engine.PrintPeopleList(model.population);
-    
+    var json_file = FileOperations.ReadConfigFile(args[2]);
+    // var json_file = FileOperations.ReadConfigFile("../../../../Files/config.json");
+    Config config = JsonSerializer.Deserialize<Config>(json_file);
+    // Console.WriteLine(config.engine_config.people_per_Person);
+    if (config != null)
+    {
+      IEngine model = new Demographic.Engine(config, age_rules, men_rules, women_rules);
 
-    model.Start();
-    Console.WriteLine("Finished");
+      model.Start();
+      Console.WriteLine("Finished");
+    }
+    else
+    {
+      Console.WriteLine("Config read error");
+    }
+
   }
 }

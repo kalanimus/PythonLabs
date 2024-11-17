@@ -1,0 +1,30 @@
+{
+  "engine_config":{
+    "start_year": 1990,
+    "end_year": 2040,
+    "population_count": 130000000,
+    "men_selebration": true,
+    "army": true,
+    "death_while_birth": true,
+    "dumb_ways_to_die": true,
+    "people_per_Person": 1000,
+    "result_age_interval": [19, 45, 66]
+  },
+
+  "person_config": {
+    "birth_chance": 0.151,
+    "girl_birth_chance": 0.55,
+    "majority_age": 18,
+    "majority_death_chance": 0.99,
+    "army_age": [18, 30],
+    "conscription_chance": 0.8,
+    "army_death_chance": 0.6,
+    "pregnancy_age_women": [18, 45],
+    "pregnancy_age_men": [18, 45],
+    "find_partner_chance": 0.05,
+    "death_while_birth_chance": 0.0342,
+    "dumb_ways_to_die_age": [15, 30, 70],
+    "dumb_ways_to_die_chance": 0.015,
+    "hundred_years": 100
+  }
+} 

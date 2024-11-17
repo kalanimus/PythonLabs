@@ -89,4 +89,11 @@ public static class FileOperations
             writer.WriteLine($"{year},{men_count},{women_count},{women_count + men_count}");
         }
   }
+
+  public static string ReadConfigFile (string path)
+  {
+    string result;
+    result = File.ReadAllText(path);
+    return result;
+  }
 }
