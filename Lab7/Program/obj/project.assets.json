@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.dll": {}
+        }
+      },
+      "Factory.FileOperations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Factory.FileOperations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.FileOperations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Factory/1.0.0": {
+      "type": "project",
+      "path": "../Factory/Factory.csproj",
+      "msbuildProject": "../Factory/Factory.csproj"
+    },
+    "Factory.FileOperations/1.0.0": {
+      "type": "project",
+      "path": "../Factory.FileOperations/Factory.FileOperations.csproj",
+      "msbuildProject": "../Factory.FileOperations/Factory.FileOperations.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Factory >= 1.0.0",
+      "Factory.FileOperations >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nikit\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\PythonLabs\\Lab7\\Program\\Program.csproj",
+      "projectName": "Program",
+      "projectPath": "D:\\PythonLabs\\Lab7\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
+      "outputPath": "D:\\PythonLabs\\Lab7\\Program\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\PythonLabs\\Lab7\\Factory.FileOperations\\Factory.FileOperations.csproj": {
+              "projectPath": "D:\\PythonLabs\\Lab7\\Factory.FileOperations\\Factory.FileOperations.csproj"
+            },
+            "D:\\PythonLabs\\Lab7\\Factory\\Factory.csproj": {
+              "projectPath": "D:\\PythonLabs\\Lab7\\Factory\\Factory.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

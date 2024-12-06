@@ -1,0 +1,12 @@
+D:\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.deps.json
+D:\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.dll
+D:\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.pdb
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.AssemblyInfoInputs.cache
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.AssemblyInfo.cs
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.csproj.CoreCompileInputs.cache
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.sourcelink.json
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.dll
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\refint\Factory.FileOperations.dll
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.pdb
+D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\ref\Factory.FileOperations.dll
