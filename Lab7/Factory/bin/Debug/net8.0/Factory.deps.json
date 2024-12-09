@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Factory/1.0.0": {
+        "dependencies": {
+          "Factory.FileOperations": "1.0.0"
+        },
         "runtime": {
           "Factory.dll": {}
+        }
+      },
+      "Factory.FileOperations/1.0.0": {
+        "runtime": {
+          "Factory.FileOperations.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Factory.FileOperations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

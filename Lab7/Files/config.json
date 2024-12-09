@@ -1,11 +1,11 @@
 {
-  "Config":{
-    "cow_amount": 3,
-    "icecream_maker_amount": 3,
-    "icecream_decorator_amount": 3,
-    "milk_generation_time": 3,
-    "icecream_making_time": 3,
-    "icecream_decoration_time": 3,
-    "random_time_interval": [1, 100]
-  }
+  "cow_amount": 5,
+  "milk_amount_per_cow": 5,
+  "icecream_maker_amount": 5,
+  "icecream_per_milk": 5,
+  "icecream_decorator_amount": 1,
+  "milk_generation_time": 1,
+  "icecream_making_time": 1,
+  "icecream_decoration_time": 1,
+  "random_time_interval": [1, 100]
 }

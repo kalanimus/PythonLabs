@@ -10,3 +10,15 @@ D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperation
 D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\refint\Factory.FileOperations.dll
 D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.pdb
 D:\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\ref\Factory.FileOperations.dll
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.deps.json
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.dll
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\bin\Debug\net8.0\Factory.FileOperations.pdb
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.AssemblyInfoInputs.cache
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.AssemblyInfo.cs
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.csproj.CoreCompileInputs.cache
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.sourcelink.json
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.dll
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\refint\Factory.FileOperations.dll
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\Factory.FileOperations.pdb
+D:\Nikita\Project\PythonLabs\Lab7\Factory.FileOperations\obj\Debug\net8.0\ref\Factory.FileOperations.dll

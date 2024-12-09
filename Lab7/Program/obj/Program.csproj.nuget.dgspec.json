@@ -87,7 +87,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\PythonLabs\\Lab7\\Factory.FileOperations\\Factory.FileOperations.csproj": {
+                "projectPath": "D:\\PythonLabs\\Lab7\\Factory.FileOperations\\Factory.FileOperations.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

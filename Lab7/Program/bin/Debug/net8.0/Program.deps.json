@@ -16,6 +16,9 @@
         }
       },
       "Factory/1.0.0": {
+        "dependencies": {
+          "Factory.FileOperations": "1.0.0"
+        },
         "runtime": {
           "Factory.dll": {
             "assemblyVersion": "1.0.0",
