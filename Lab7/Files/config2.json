@@ -1,10 +1,10 @@
 {
-  "cow_amount": 4,
-  "milk_amount_per_cow": 5,
+  "cow_amount": 20,
+  "milk_amount_per_cow": 2,
   "icecream_maker_amount": 1,
   "icecream_per_milk": 2,
   "icecream_decorator_amount": 1,
-  "milk_generation_time": 1,
+  "milk_generation_time": 10,
   "icecream_making_time": 1,
   "icecream_decoration_time": 1,
   "random_time_interval": [1, 100]

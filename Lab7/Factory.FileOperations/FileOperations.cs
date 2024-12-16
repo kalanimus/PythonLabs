@@ -1,9 +1,15 @@
 ﻿namespace Factory.FileOperations;
-using System.Threading;
+using System;
 
 public static class FileOperations
 {
   private static readonly object _lock = new object();
+  private static readonly string log_path;
+
+  static FileOperations() {
+    log_path = $"Files/log_{DateTime.Now.ToString("yyyy-MM-dd_HH:mm:ss")}.txt";
+  }
+
   public static string ReadConfigFile (string path)
   {
     string result;
@@ -14,19 +20,19 @@ public static class FileOperations
   public static void CreateLogFile()
   {
     // string path = "../../../../Files/log.txt";
-    string path = "Files/log.txt";
+    // string path = "Files/log.txt";
 
-    if (File.Exists(path))
+    if (File.Exists(log_path))
     {
-      File.Delete(path);
+      File.Delete(log_path);
     }
   }
     public static void WriteToLogFile(string message)
   {
     // string path = "../../../../Files/log.txt";
-    string path = "Files/log.txt";
+    // string path = "Files/log.txt";
     lock (_lock){
-      using (StreamWriter writer = new StreamWriter(path, true))
+      using (StreamWriter writer = new StreamWriter(log_path, true))
         {
             writer.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.fff")}: {message}");
         }
